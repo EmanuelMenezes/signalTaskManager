@@ -1,0 +1,77 @@
+/*Minhas Classes CSS*/
+
+.my-card {
+    margin: 50px 0 70px 0;
+}
+
+.card {
+    border-radius: 7px;
+    box-shadow: 0 0 10px #888;
+}
+
+.teste {
+    font-size: medium;
+}
+
+.my-btn svg {
+    float: left;
+}
+
+.my-btn {
+    text-align: left;
+}
+
+.my-btn span {
+    padding-left: 10px;
+}
+
+.py-4 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(248, 250, 252, 1) 0%, rgba(170, 177, 255, 1) 64%, rgba(52, 204, 156, 1) 100%);
+}
+
+.table {
+    margin-bottom: 30px;
+}
+
+.fast-menu:hover {
+    animation: shake 0.9s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    25%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    40%,
+    70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+    55% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+.actionBtn {
+    font-size: small !important;
+}
+
+.blue:hover {
+    color: darkcyan !important;
+}
+
+.red:hover {
+    color: red !important;
+}
+
+.displayNone {
+    display: none;
+}
